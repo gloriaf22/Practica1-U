@@ -1,0 +1,17 @@
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.csproj.AssemblyReference.cache
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1_U.PrimerFormulario.resources
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.csproj.GenerateResource.cache
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.AssemblyInfoInputs.cache
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.AssemblyInfo.cs
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.csproj.CoreCompileInputs.cache
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\bin\Debug\net6.0-windows\Practica1-U.exe
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\bin\Debug\net6.0-windows\Practica1-U.deps.json
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\bin\Debug\net6.0-windows\Practica1-U.runtimeconfig.json
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\bin\Debug\net6.0-windows\Practica1-U.dll
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\bin\Debug\net6.0-windows\Practica1-U.pdb
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.dll
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\refint\Practica1-U.dll
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.pdb
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.genruntimeconfig.cache
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\ref\Practica1-U.dll
