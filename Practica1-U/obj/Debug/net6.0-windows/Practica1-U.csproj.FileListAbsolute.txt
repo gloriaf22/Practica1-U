@@ -16,3 +16,4 @@ C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Pra
 C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1-U.genruntimeconfig.cache
 C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\ref\Practica1-U.dll
 C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1_U.Properties.Resources.resources
+C:\Users\glori\source\repos\Practica1-U\Practica1-U\obj\Debug\net6.0-windows\Practica1_U.frmEncuesta.resources

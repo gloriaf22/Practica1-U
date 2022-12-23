@@ -16,5 +16,12 @@ namespace Practica1_U
         {
             InitializeComponent();
         }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            txb_codigo.Text= string.Empty;
+            txb_descripcion.Text= string.Empty;
+            txb_codigo.Select();
+        }
     }
 }

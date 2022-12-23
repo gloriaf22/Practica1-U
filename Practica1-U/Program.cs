@@ -11,7 +11,8 @@ namespace Practica1_U
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new PrimerFormulario());
+            //Application.Run(new PrimerFormulario());
+            Application.Run(new frmEncuesta());
         }
     }
 }
