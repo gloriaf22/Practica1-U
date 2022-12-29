@@ -48,5 +48,14 @@ namespace Practica1_U
             txb_descripcion.Text = "";
             txb_codigo.Select();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Seguro que desea eliminar el elemento seleccionado?", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                lst_manager.Items.Remove(lst_manager.SelectedItem);
+            }
+            
+        }
     }
 }
