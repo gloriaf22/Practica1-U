@@ -12,7 +12,7 @@ namespace Practica1_U
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             //Application.Run(new PrimerFormulario());
-            Application.Run(new frmEncuesta());
+            Application.Run(new PrimerFormulario());
         }
     }
 }
