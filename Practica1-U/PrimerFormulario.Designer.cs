@@ -55,6 +55,7 @@
             this.grb_manager.Controls.Add(this.lbl_Descripcion);
             this.grb_manager.Controls.Add(this.txb_codigo);
             this.grb_manager.Controls.Add(this.lbl_Codigo);
+            this.grb_manager.Enabled = false;
             this.grb_manager.Font = new System.Drawing.Font("Consolas", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.grb_manager.Location = new System.Drawing.Point(37, 128);
             this.grb_manager.Name = "grb_manager";
@@ -62,12 +63,13 @@
             this.grb_manager.TabIndex = 8;
             this.grb_manager.TabStop = false;
             this.grb_manager.Text = "Manager";
-            this.grb_manager.Visible = false;
             // 
             // btn_save
             // 
-            this.btn_save.BackColor = System.Drawing.Color.SpringGreen;
-            this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_save.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn_save.FlatAppearance.BorderSize = 0;
+            this.btn_save.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SpringGreen;
+            this.btn_save.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_save.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_save.Location = new System.Drawing.Point(422, 295);
             this.btn_save.Name = "btn_save";
@@ -79,8 +81,10 @@
             // 
             // btn_cancel
             // 
-            this.btn_cancel.BackColor = System.Drawing.Color.LightCoral;
-            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_cancel.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.btn_cancel.FlatAppearance.BorderSize = 0;
+            this.btn_cancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral;
+            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_cancel.Font = new System.Drawing.Font("Consolas", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_cancel.Location = new System.Drawing.Point(190, 295);
             this.btn_cancel.Name = "btn_cancel";
@@ -174,6 +178,7 @@
             this.btnSalir.Text = "SALIR";
             this.btnSalir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnReporte
             // 
@@ -223,9 +228,11 @@
             this.btnActualizar.Text = "ACTUALIZAR";
             this.btnActualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // lst_manager
             // 
+            this.lst_manager.Enabled = false;
             this.lst_manager.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lst_manager.FormattingEnabled = true;
             this.lst_manager.ItemHeight = 24;
@@ -233,6 +240,8 @@
             this.lst_manager.Name = "lst_manager";
             this.lst_manager.Size = new System.Drawing.Size(535, 460);
             this.lst_manager.TabIndex = 10;
+            this.lst_manager.Visible = false;
+            this.lst_manager.Click += new System.EventHandler(this.lst_manager_Click);
             // 
             // PrimerFormulario
             // 
